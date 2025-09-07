@@ -30,7 +30,7 @@ h1 {
 
 h2 {
     font-size: 2.25rem;
-    font-weight: 500;
+    font-weight: 650;
     text-align: center;
 }
 
@@ -101,6 +101,7 @@ p {
     border: none;
     color: white;
     transition: background-color 0.5s ease-in-out;
+    text-align: center;
 }
 
 .btn:hover {
@@ -125,7 +126,8 @@ p {
 nav,
 .navbar-brand,
 .navitems,
-.navlist {
+.navlist, 
+.nav-btn {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -134,6 +136,13 @@ nav,
 .navlist a {
     padding: 10px 25px;
     color: black;
+    transition: transform 1s ease-in-out;
+}
+
+.navlist a:hover {
+    box-shadow: 2px 2px 5px black;
+    border-radius: 15px;
+    transform: scale(1.04);
 }
 
 /* .nav-btn + a {
@@ -323,51 +332,131 @@ p {
     margin-top: 20px;
 }
 
-.saas-function{
-    width: 100%;
-}
-.saas-left{
-    width: 60%;
-}
-.saas-right{
-    width: 40%;
-}
+
 
 /* saas function part */
-.saas-left-content{
-    padding: 35px;
-}
-.saas-left-content hr{
-    margin: 10px 0;
-    
+.saas-function {
+    width: 100%;
+    /* margin-top: 50px; */
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.saas-left-first-part, .saas-left-socound-part{
+.saas-left {
+    width: 55%;
+}
+
+.saas-left h3 {
+    width: 530px;
+}
+
+.saas-left>p {
+    width: 530px;
+}
+
+.saas-left-content {
+    padding: 35px;
+}
+
+.saas-left-content hr {
+    margin: 10px 0;
+}
+
+.saas-left-first-part,
+.saas-left-socound-part {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.saas-btn{
+
+.saas-btn {
     border: 1px solid rgb(81, 81, 81);
     padding: 10px;
     border-radius: 10px;
 }
-.saas-btn2{
+
+.saas-btn2 {
     background-color: #ffb686;
     padding: 10px;
     border-radius: 10px;
     width: auto;
 }
-.saas-mod{
+
+.saas-mod {
     width: 250px;
     border: 1px solid #FF822C;
     color: #ffd1b3;
 }
 
+.width {
+    width: 250px;
+}
 
+.width2 {
+    width: 100px;
+    text-align: center;
+}
 
+.saas-right {
+    width: 30%;
+}
 
+.saas-right input {
+    padding: 10px;
+    color: rgb(102, 102, 102);
+    border: none;
+    border-bottom: 2px solid rgb(188, 188, 188);
+    width: 100%;
+    background-color: rgb(244, 244, 244);
+}
 
+.saas-right input,
+a {
+    display: block;
+    margin: 20px 0;
+    font-size: 20px;
+    color: rgb(39, 39, 39);
+}
+
+.icon {
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+/* themes part */
+
+.themes h2{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.themes .row{
+    padding: 25px 230px;
+}
+.center{
+    margin: 0 auto;
+}
+.theme-btn{
+    background-color: transparent;
+    border: 1px solid #FF822C;
+    color: black;
+}
+
+/* template part */
+.template h2{
+    margin-bottom: 40px;
+}
+.temp{
+    text-align: end;
+    margin: 50px 0;
+    font-weight: bold;
+}.temp img{
+    width: 30px;
+    margin-left: 10px;
+}
+
+/* questions part */
 
 
 
@@ -454,13 +543,13 @@ p {
     .col-lg-25 {
         width: 25%;
     }
-    
 
-    .company figure{
+
+    .company figure {
         margin: 45px auto 0;
     }
 
-    .card{
+    .card {
         height: 375px;
     }
 
@@ -521,7 +610,7 @@ p {
 
 
 
-   
+
 
 
 }

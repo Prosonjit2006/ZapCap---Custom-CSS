@@ -198,7 +198,7 @@ nav,
 
 /*============================================ banner part =======*/
 .banner {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     position: relative;
 
     /* background-image: url('../img/hero-section.png');
@@ -778,11 +778,6 @@ a {
 
     /* navbar part */
 
-    .navbar-brand {
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-    }
 
     .banner .container .row {
         margin-top: 80px;
@@ -792,25 +787,79 @@ a {
         display: none;
     }
 
-    .nav-togglar {
-        display: block;
-    }
 
-    .navitems,
-    .navlist {
-        display: flex;
-        flex-direction: column;
-        display: none;
-    }
 
-    nav {
-        position: relative;
-    }
 
-    .nav-btn {
-        position: absolute;
-        right: 30px;
-    }
+
+
+
+
+
+
+
+
+
+
+         .navbar-brand {
+             width: 100%;
+             display: flex;
+             align-items: center;
+             justify-content: space-between;
+         }
+    
+         .nav-togglar {
+             display: block;
+             color: black;
+         }
+    
+                 nav {
+                     position: relative;
+                 }
+        
+                 .nav-btn {
+                     position: absolute;
+                     right: 30px;
+                 }
+    
+         .navlist {
+             background-color: #ffffff;
+    
+             display: flex;
+             /* justify-content: start; */
+             flex-direction: column;
+             display: none;
+    
+             width: 100%;
+             text-align: start;
+             /* margin: 0 -15px; */
+             position: absolute;
+             top: 99%;
+             left: 0;
+             /* right: 0; */
+         }
+    
+         
+         .showList {
+             display: block;
+         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+   
 
     .themes .row {
         padding: 20px 50px;

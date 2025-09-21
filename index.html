@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <!-- header part -->
+    <!-- header  -->
     <header>
       <!-- navbar part -->
       <div class="navbar">
@@ -47,6 +47,7 @@
                     <a href="#">Product 3</a>
                   </div>
                 </li>
+
                 <!-- 2nd dropdown -->
                 <li class="dropdown">
                   <a href="#" class="dropbtn">
@@ -71,46 +72,57 @@
       </div>
     </header>
 
-    <!-- main part -->
+    <!-- main  -->
     <main>
-      <!-- banner part ================ not responsive ============ problem in photo part-->
+      <!-- banner part ================ not responsive 766px ============ problem in photo part-->
       <section class="banner">
         <div class="container">
-          <div class="banner-content">
-            <strong id="siz22"
-              >Product Groth Solution in Single Platform.</strong
-            >
-            <h1>Managing business payments has never been easier</h1>
-            <div class="file">
-              <div class="link">
-                <div class="link-content">
-                  <i class="fa-solid fa-link"></i>
-                  <p id="gray">Drop a video link</p>
+          <div class="row">
+            <div class="col col-50">
+              <strong id="siz22"
+                >Product Groth Solution in Single Platform.</strong
+              >
+              <h1>Managing business payments has never been easier</h1>
+              <div class="file">
+                <div class="link">
+                  <div class="link-content">
+                    <i class="fa-solid fa-link"></i>
+                    <p id="gray">Drop a video link</p>
+                  </div>
+                  <a href="#" class="btn link-btn-clips">Get Clips</a>
                 </div>
-                <a href="#" class="btn link-btn-clips">Get Clips</a>
+
+                <p id="gray">or</p>
+
+                <a href="#" class="btn link-btn">Upload File</a>
               </div>
-              <p id="gray">or</p>
-              <a href="#" class="btn link-btn">Upload File</a>
+
+              <div class="data1">
+                <p id="siz24">
+                  <i class="fa-solid fa-circle-check"></i> Free Register
+                </p>
+                <p id="siz24">
+                  <i class="fa-solid fa-circle-check"></i> Great Service
+                </p>
+              </div>
+
+              <div class="data2">
+                <p><i class="fa-brands fa-intercom"></i> Handy video editor</p>
+                <p>
+                  <i class="fa-solid fa-envelope-open-text"></i> Dynamic text
+                  animations
+                </p>
+                <p>
+                  <i class="fa-solid fa-file-video"></i> Extensive media library
+                </p>
+                <p><i class="fa-regular fa-file"></i> Rich video templates</p>
+              </div>
             </div>
 
-            <div class="data1">
-              <p id="siz24">
-                <i class="fa-solid fa-circle-check"></i> Free Register
-              </p>
-              <p id="siz24">
-                <i class="fa-solid fa-circle-check"></i> Great Service
-              </p>
-            </div>
-            <div class="data2">
-              <p><i class="fa-brands fa-intercom"></i> Handy video editor</p>
-              <p>
-                <i class="fa-solid fa-envelope-open-text"></i> Dynamic text
-                animations
-              </p>
-              <p>
-                <i class="fa-solid fa-file-video"></i> Extensive media library
-              </p>
-              <p><i class="fa-regular fa-file"></i> Rich video templates</p>
+            <div class="col col-50">
+              <figure>
+                <img src="./img/hero-section.png" alt="hero section" />
+              </figure>
             </div>
           </div>
         </div>
@@ -254,7 +266,7 @@
           <!-- saas function part -->
 
           <div class="saas-function">
-            <div class="saas-left">
+            <div class="saas-left col-md-100">
               <ul class="navlist">
                 <li id="siz24"><a href="#">Overview</a></li>
                 <li id="siz24"><a href="#">License</a></li>
@@ -294,7 +306,14 @@
                     </div>
                   </div>
 
-                  <div class="saas-btn saas-mod">Enter value...</div>
+                  <form>
+                    <input
+                      type="search"
+                      placeholder="Enter value..."
+                      class="saas-btn saas-mod"
+                    />
+                  </form>
+
                   <i class="fa-solid fa-ellipsis-vertical"></i>
                 </div>
                 <hr />
@@ -415,7 +434,7 @@
               </div>
             </div>
 
-            <div class="saas-right">
+            <div class="saas-right col-md-100">
               <form>
                 <input type="search" placeholder="Filter" />
               </form>
@@ -458,52 +477,34 @@
 
           <div class="row">
             <div class="col col-25">
-              <a href="#" class="btn ">
-                technology video
-              </a>
+              <a href="#" class="btn"> technology video </a>
             </div>
             <div class="col col-25">
-              <a href="#" class="btn theme-btn">
-                virtual assistant
-              </a>
+              <a href="#" class="btn theme-btn"> virtual assistant </a>
             </div>
             <div class="col col-25">
-              <a href="#" class="btn theme-btn">
-                vision video
-              </a>
+              <a href="#" class="btn theme-btn"> vision video </a>
             </div>
             <div class="col col-25">
-              <a href="#" class="btn theme-btn">
-                ai copilot video
-              </a>
+              <a href="#" class="btn theme-btn"> ai copilot video </a>
             </div>
           </div>
 
-          <div class="row">
-            <div class="col col-33">
-              <a href="#" class="btn theme-btn">
-                AI chatbot video
-              </a>
+          <div class="row control">
+            <div class="col col-33 center">
+              <a href="#" class="btn theme-btn"> AI chatbot video </a>
             </div>
-            <div class="col col-33">
-              <a href="#" class="btn theme-btn">
-                website video
-              </a>
+            <div class="col col-33 center">
+              <a href="#" class="btn theme-btn"> website video </a>
             </div>
-            <div class="col col-33">
-              <a href="#" class="btn ">
-                ai motivational video
-              </a>
+            <div class="col col-33 center">
+              <a href="#" class="btn"> ai motivational video </a>
             </div>
-            
           </div>
           <div class="row">
             <div class="col center">
-              <a href="#" class="btn theme-btn"> 
-                website intro video
-              </a>
+              <a href="#" class="btn theme-btn"> website intro video </a>
             </div>
-            
           </div>
         </div>
       </section>
@@ -514,69 +515,246 @@
           <h2>Similar templates</h2>
 
           <div class="row">
-            <div class="col col-25">
+            <div class="col col-25 col-md-50 col-sd-100">
               <figure>
-                <img src="./img/template/1.png" alt="img">
+                <img src="./img/template/1.png" alt="img" />
               </figure>
             </div>
-            <div class="col col-25">
+            <div class="col col-25 col-md-50 col-sd-100">
               <figure>
-                <img src="./img/template/2.png" alt="img">
+                <img src="./img/template/2.png" alt="img" />
               </figure>
             </div>
-            <div class="col col-25">
+            <div class="col col-25 col-md-50 col-sd-100">
               <figure>
-                <img src="./img/template/3.png" alt="img">
+                <img src="./img/template/3.png" alt="img" />
               </figure>
             </div>
-            <div class="col col-25">
+            <div class="col col-25 col-md-50 col-sd-100">
               <figure>
-                <img src="./img/template/4.png" alt="img">
+                <img src="./img/template/4.png" alt="img" />
               </figure>
             </div>
           </div>
 
           <a href="#" class="siz24 temp">
-            All templates by Airframe Studio <img src="./img/template/right-Arrow.png" alt="right-Arrow">
+            All templates by Airframe Studio
+            <img src="./img/template/right-Arrow.png" alt="right-Arrow" />
           </a>
 
           <div class="row">
-            <div class="col col-25">
+            <div class="col col-25 col-md-50 col-sd-100">
               <figure>
-                <img src="./img/template/5.png" alt="img">
+                <img src="./img/template/5.png" alt="img" />
               </figure>
             </div>
-            <div class="col col-25">
+            <div class="col col-25 col-md-50 col-sd-100">
               <figure>
-                <img src="./img/template/6.png" alt="img">
+                <img src="./img/template/6.png" alt="img" />
               </figure>
             </div>
-            <div class="col col-25">
+            <div class="col col-25 col-md-50 col-sd-100">
               <figure>
-                <img src="./img/template/7.png" alt="img">
+                <img src="./img/template/7.png" alt="img" />
               </figure>
             </div>
-            <div class="col col-25">
+            <div class="col col-25 col-md-50 col-sd-100">
               <figure>
-                <img src="./img/template/8.png" alt="img">
+                <img src="./img/template/8.png" alt="img" />
               </figure>
             </div>
           </div>
-
-
         </div>
       </section>
 
+      <!-- question part -->
       <section class="question common-padding">
         <div class="container">
           <h2>Freequently asked questions</h2>
+          <p id="gray" class="center">We`re happy to answer your questions</p>
+
+          <div class="question-content">
+            <a href="#"
+              >What is Team Newsify?
+              <img src="./img/read-icon.png" alt="read-icon"
+            /></a>
+            <hr />
+            <a href="#"
+              >How is the team Newsify
+              <img src="./img/read-icon.png" alt="read-icon"
+            /></a>
+            <hr />
+            <a href="#"
+              >What does the technology work?
+              <img src="./img/read-icon.png" alt="read-icon"
+            /></a>
+            <hr />
+            <a href="#"
+              >Can i get a live demo of Newsify in action?
+              <img src="./img/read-icon.png" alt="read-icon"
+            /></a>
+            <hr />
+          </div>
         </div>
       </section>
 
+      <!-- user part -->
+      <section class="user common-padding">
+        <div class="container">
+          <h2>What our users <span>are saying</span></h2>
 
+          <div class="user-img">
+            <figure class="img1">
+              <img src="./img/user/1.png" alt="user" />
+            </figure>
+            <figure class="img2">
+              <img src="./img/user/2.png" alt="user" />
+            </figure>
+            <figure class="img3">
+              <img src="./img/user/3.png" alt="user" />
+            </figure>
+            <figure class="img4">
+              <img src="./img/user/4.png" alt="user" />
+            </figure>
+            <figure class="img5">
+              <img src="./img/user/5.png" alt="user" />
+            </figure>
+            <figure class="img6">
+              <img src="./img/user/6.png" alt="user" />
+            </figure>
+            <figure class="img7">
+              <img src="./img/user/7.png" alt="user" />
+            </figure>
+          </div>
+        </div>
+      </section>
 
-
-
+      <!-- saas-free part -->
+      <section class="saas-free">
+        <div class="saas-content">
+          <h2>Create a SaaS Video for Free in Minutes</h2>
+          <a href="#" class="saas-vid-btn"
+            >Make a Free Video <img src="./img/template/right-Arrow.png" alt=""
+          /></a>
+        </div>
+      </section>
     </main>
+
+    <!-- footer -->
+    <footer>
+      <!-- footer part -->
+      <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col col-20 col-md-33">
+              <figure>
+                <img src="./img/logo.png" alt="LOGO" />
+              </figure>
+              <p>
+                zapcap is a simple yet powerful video maker and editor for
+                everyone. We help users easily create compelling video content
+                for personal or business purposes without any learning curve.
+              </p>
+
+              <div class="dropdown footer-drop">
+                <a href="#" class="dropbtn">
+                  English <i class="fa-solid fa-angle-down"></i>
+                </a>
+                <div class="dropdown-content">
+                  <a href="#">Hindi</a>
+                  <a href="#">Bengali</a>
+                  <a href="#">English</a>
+                </div>
+              </div>
+
+              <div class="icon">
+                <i class="fa-brands fa-youtube" style="color: #ff2600"></i>
+                <i class="fa-brands fa-facebook-f" style="color: #74c0fc"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-linkedin-in" style="color: #74c0fc"></i>
+              </div>
+
+              <p>&copy; All Content copyright@2025 Prosonjit</p>
+            </div>
+
+            <div class="col col-20 col-md-33">
+              <p><strong>USE FLEXCLIP FOR</strong></p>
+
+              <a href="#"> Promo Video </a>
+              <a href="#"> Marketing Video </a>
+              <a href="#"> News Video </a>
+              <a href="#"> Trailer Video </a>
+              <a href="#"> Intro Video </a>
+              <a href="#"> Wedding Video </a>
+              <a href="#"> Lyric Video </a>
+              <a href="#"> Birthday Video </a>
+              <a href="#"> Invitation Video </a>
+              <a href="#"> Slideshow Maker </a>
+              <a href="#"> Video Editor </a>
+              <a href="#"> Movie Maker </a>
+              <a href="#"> View More </a>
+            </div>
+
+            <div class="col col-20 col-md-33">
+              <p><strong>TOOLS</strong></p>
+
+              <a href="#"> AI Text to Speech </a>
+              <a href="#"> AI Auto Subtitle </a>
+              <a href="#"> AI Text to Video </a>
+              <a href="#"> Screen Recorder </a>
+              <a href="#"> All Tools </a>
+
+              <p><strong>RESOURCES</strong></p>
+
+              <a href="#"> Blog </a>
+              <a href="#"> Case Studies </a>
+              <a href="#"> Compare </a>
+              <a href="#"> Category </a>
+              <a href="#"> Templates </a>
+              <a href="#"> Stock Video </a>
+              <a href="#"> Features </a>
+            </div>
+
+            <div class="col col-20 col-md-50">
+              <p><strong>COMPANY</strong></p>
+
+              <a href="#"> About </a>
+              <a href="#"> Updates </a>
+              <a href="#"> Affiliate </a>
+              <a href="#"> Partner </a>
+              <a href="#"> Press Kit </a>
+              <a href="#"> Pricing </a>
+              <a href="#"> Education Discount </a>
+              <a href="#"> Privacy </a>
+            </div>
+
+            <div class="col col-20 col-md-50">
+              <p><strong>SUPPORT</strong></p>
+
+              <a href="#">Help Center</a>
+              <a href="#">Contact Us</a>
+              <a href="#">Tutorials</a>
+              <a href="#">Video Tutorials</a>
+
+              <p><strong>Newsletter</strong></p>
+
+              <a href="#">Stay up to date</a>
+
+              <form>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Your Email"
+                />
+                <div class="sub">
+                  <p>Subscribe</p>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
